@@ -1,0 +1,12 @@
+{
+  "name" : "Who Cares?",
+  "version" : "0.1",
+  "description" : "Hides publications of certain facebook pages that your friends insist to share.",
+  "background": {"pages": ["background.html"]},
+  "content_scripts" : [ {
+      "matches" : ["*://www.facebook.com/*"],
+      "js" : ["jquery-2.0.0.min.js", "background.js"],
+      "css": ["style.css"]
+    } ],
+  "manifest_version": 2
+}
