@@ -1,4 +1,7 @@
-h3 {
-  font-size: 20px;
-  color: #f0f;
+.wc_hide_page {
+  font-size: 75%;
+  font-weight: bold;
+  vertical-align: super;
+  color: #f00;
+
 }
